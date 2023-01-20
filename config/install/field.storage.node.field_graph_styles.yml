@@ -1,0 +1,43 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+  enforced:
+    module:
+      - chart_content_type
+_core:
+  default_config_hash: Vts9iGeZ8H9OYus02A7cdHZ4VW2SJlVLcajYWttEkmc
+id: node.field_graph_styles
+field_name: field_graph_styles
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    - value: Default
+      label: Default
+    - value: California
+      label: California
+    - value: Georgia
+      label: Georgia
+    - value: "New York"
+      label: "New York"
+    - value: Texas
+      label: Texas
+    - value: Alabama
+      label: Alabama
+    - value: Florida
+      label: Florida
+    - value: "New Mexico"
+      label: "New Mexico"
+    - value: Arizona
+      label: Arizona
+  allowed_values_function: ""
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {}
+persist_with_no_fields: false
+custom_storage: false

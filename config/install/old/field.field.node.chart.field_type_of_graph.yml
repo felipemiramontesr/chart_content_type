@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_type_of_graph
+    - node.type.chart
+  module:
+    - options
+  enforced:
+    module:
+      - chart_content_type
+id: node.chart.field_type_of_graph
+field_name: field_type_of_graph
+entity_type: node
+bundle: chart
+label: "Type of graph"
+description: ""
+required: true
+translatable: false
+default_value: {}
+default_value_callback: ""
+settings: {}
+field_type: list_string

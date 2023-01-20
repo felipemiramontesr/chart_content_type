@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_data_type
+    - node.type.chart
+id: node.chart.field_data_type
+field_name: field_data_type
+entity_type: node
+bundle: chart
+label: "Data type"
+description: "Example: Schools., animals., marks., et ..."
+required: true
+translatable: false
+default_value: {}
+default_value_callback: ""
+settings: {}
+field_type: string

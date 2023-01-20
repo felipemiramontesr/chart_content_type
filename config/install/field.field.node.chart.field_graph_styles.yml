@@ -1,0 +1,26 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_graph_styles
+    - node.type.chart
+  module:
+    - options
+  enforced:
+    module:
+      - chart_content_type
+_core:
+  default_config_hash: EF2CkdIX37EVgswzofGFQL4tTzMWen-HTekLOVFisDI
+id: node.chart.field_graph_styles
+field_name: field_graph_styles
+entity_type: node
+bundle: chart
+label: "Graph Styles"
+description: "Graphs color styling"
+required: false
+translatable: false
+default_value:
+  - value: Default
+default_value_callback: ""
+settings: {}
+field_type: list_string

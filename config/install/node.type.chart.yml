@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - chart_content_type
+_core:
+  default_config_hash: ZhyzxysBDSF-1LYBms5oA-I7yf8mOHVNXp-kFSU9_U8
+name: Chart
+type: chart
+description: "Animated Chart"
+help: ""
+new_revision: false
+preview_mode: 1
+display_submitted: true

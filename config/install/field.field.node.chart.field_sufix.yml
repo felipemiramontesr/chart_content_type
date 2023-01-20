@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sufix
+    - node.type.chart
+_core:
+  default_config_hash: exVCYf1-v_jI3ceoxQ9PLd-SSfXA1Ap8kwZUDh6BpV8
+id: node.chart.field_sufix
+field_name: field_sufix
+entity_type: node
+bundle: chart
+label: Sufix
+description: "Insert a suffix: %, $, oz, yd, none, et.."
+required: false
+translatable: false
+default_value:
+  - value: none
+default_value_callback: ""
+settings: {}
+field_type: string

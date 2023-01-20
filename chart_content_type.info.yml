@@ -1,0 +1,10 @@
+name: Chart Content Type
+description: This module creates a new Content Type (Chart).
+package: Statistics
+
+type: module
+core_version_requirement: ^9.4 || ^10
+dependencies:
+  - drupal:chart_paragraph
+libraries: -chart_contet_type/js
+  -chart_contet_type/css

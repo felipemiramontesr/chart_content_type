@@ -1,0 +1,41 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+  enforced:
+    module:
+      - chart_content_type
+_core:
+  default_config_hash: uqaHxeRrBOiE0DNG-Bnw3SvuWAtPNxkjVmmcx2DFsKw
+id: node.field_type_of_graph
+field_name: field_type_of_graph
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    - value: bar
+      label: bar
+    - value: pie
+      label: pie
+    - value: bubble
+      label: bubble
+    - value: doughnut
+      label: doughnut
+    - value: "cuntup number"
+      label: "cuntup number"
+    - value: polarArea
+      label: polarArea
+    - value: line
+      label: line
+    - value: upCount
+      label: upCount
+  allowed_values_function: ""
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {}
+persist_with_no_fields: false
+custom_storage: false

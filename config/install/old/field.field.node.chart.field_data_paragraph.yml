@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - chart_content_type
+  config:
+    - field.storage.node.field_data_paragraph
+    - node.type.chart
+    - paragraphs.paragraphs_type.data
+  module:
+    - entity_reference_revisions
+id: node.chart.field_data_paragraph
+field_name: field_data_paragraph
+entity_type: node
+bundle: chart
+label: "Data paragraph"
+description: ""
+required: false
+translatable: false
+default_value: {}
+default_value_callback: ""
+settings:
+  handler: "default:paragraph"
+  handler_settings:
+    target_bundles:
+      data: data
+    negate: 0
+    target_bundles_drag_drop:
+      data:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions
